@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaLaptopCode, FaBrain, FaRegLightbulb } from 'react-icons/fa'; // يجب تثبيت react-icons
-
+import { FaLaptopCode, FaBrain, FaRegLightbulb } from 'react-icons/fa'; 
 function About() {
   return (
     <section id="about" className="about-section">
