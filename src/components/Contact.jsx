@@ -1,5 +1,4 @@
 import React from 'react';
-// يتم افتراض استخدام هذه الأيقونات
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'; 
 
 function Contact() {
@@ -7,19 +6,19 @@ function Contact() {
     {
       name: 'Email',
       icon: FaEnvelope,
-      href: 'mailto:your.sara.email@example.com', // **غيري هذا الرابط**
-      label: 'your.sara.email@example.com',
+      href: 'mailto: sfms1426@gmail.com', 
+      label: 'sfms1426@gmail.com',
     },
     {
       name: 'LinkedIn',
       icon: FaLinkedin,
-      href: 'https://linkedin.com/in/your_sara_profile', // **غيري هذا الرابط**
+      href: 'https://www.linkedin.com/in/sara-fawaz-sfms1426/', 
       label: 'LinkedIn Profile',
     },
     {
       name: 'GitHub',
       icon: FaGithub,
-      href: 'https://github.com/your_sara_username', // **غيري هذا الرابط**
+      href: 'https://github.com/sfms2005', 
       label: 'GitHub Repository',
     },
   ];
