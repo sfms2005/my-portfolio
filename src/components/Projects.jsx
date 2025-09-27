@@ -10,8 +10,8 @@ function Projects() {
         'Implemented Caesar cipher, bit rotation, and random bit insertion for enhanced security.',
         'Utilized SHA-256 hashing to ensure data integrity and end-to-end message security.',
       ],
-      technologies: ['Java', 'Cryptography'], // يمكن إضافة أيقونات لاحقاً
-      link: '#' // رابط المشروع أو مستودع الكود
+      technologies: ['Java', 'Cryptography'], 
+      link: 'https://github.com/sfms2005/Encryption_Algorithm' 
     },
     {
       title: 'SPA Booking System',
@@ -22,10 +22,10 @@ function Projects() {
         'Streamlined workflow for managing appointments and client data.',
       ],
       technologies: ['Java', 'SPA', 'Frontend/Backend'],
-      link: '#'
+      link: 'https://github.com/sfms2005/Spa_Booking_System'
     },
     {
-      title: 'Pharmacy User Interface',
+      title: 'Smart Medication Assistant Design',
       role: 'Designer',
       description: 'Designed a pharmacy management application focusing on user experience and safety.',
       details: [
@@ -33,7 +33,7 @@ function Projects() {
         'Incorporated features like automated reminders, drug interaction alerts, and real-time medicine availability checks.',
       ],
       technologies: ['Figma', 'UI/UX Design'],
-      link: '#'
+      link: 'https://github.com/sfms2005/Smart-Medication-Assistant-Design'
     },
     {
       title: 'GP1: Accurate Arabic-English Data Transliteration',
@@ -55,7 +55,7 @@ function Projects() {
         'Integrated AI assistant features for enhanced interactivity and user experience.',
       ],
       technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
-      link: 'https://github.com/yourusername/your-portfolio-repo' // يمكنك تغيير هذا لربط المشروع الفعلي
+      link: 'https://github.com/sfms2005/my-portfolio' 
     },
   ];
 
