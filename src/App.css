@@ -6,10 +6,9 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #0f0f1a; /* الخلفية الداكنة الرئيسية */
+  background-color: #0f0f1a; 
 }
 
-/* تنسيقات الأقسام العامة */
 .about-section,
 .experience-section,
 .skills-section,
@@ -44,7 +43,7 @@
 }
 
 .hero-section {
-  /* تحتاجين لوضع صورة الخلفية المناسبة هنا */
+  
   background-image: url('./assets/retro_tech.png'); 
   background-size: cover;
   background-position: center;
@@ -245,7 +244,7 @@
     font-weight: bold;
 }
 
-/* تنسيق قائمة المهام */
+
 .experience-item .item-details-list {
     list-style: disc;
     padding-left: 20px;
@@ -264,76 +263,105 @@
   5. SKILLS SECTION STYLES
 --------------------------------- */
 .skills-section {
-    background-color: #1a1a2e;
-    padding-bottom: 50px;
-}
-
-.skills-section h2 {
-    font-size: 2.5rem;
-    color: #8a2be2;
-    margin-bottom: 20px;
-}
-
-.skills-categories {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+    padding-bottom: 80px;
+    background-color: #0f0f1a;
 }
 
 .skill-category-group {
-    padding: 20px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 60px; 
 }
 
 .category-title {
-    font-size: 1.8rem;
-    color: #ffd700;
-    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #ffd700; 
+    margin-bottom: 15px;
     text-align: center;
+}
+
+.skill-sub-category {
+    margin-top: 40px; 
+}
+
+.sub-category-name {
+    font-size: 1.8rem; 
+    color: #8a2be2; 
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid rgba(138, 43, 226, 0.3); 
+    padding-bottom: 10px;
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    max-width: fit-content;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 20px;
-    justify-items: center;
-    max-width: 900px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 15px; 
+    justify-items: center; 
+    max-width: 900px; 
+    margin: 30px auto 0 auto; 
 }
 
 .skill-card {
-    background-color: #0f0f1a;
-    padding: 20px 10px;
+    background-color: #1a1a2e;
+    padding: 15px 8px; 
     border-radius: 8px;
     width: 100%;
-    max-width: 160px;
+    max-width: 120px; 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; 
     transition: transform 0.3s ease, background-color 0.3s ease;
     border: 1px solid transparent;
+    min-height: 100px; 
 }
 
 .skill-card:hover {
     transform: translateY(-5px);
     background-color: #2e1a3e;
-    border-color: #8a2be2;
+    border-color: #00bcd4; 
 }
 
 .skill-icon-lg {
-    font-size: 3rem;
-    color: #00bcd4;
-    margin-bottom: 10px;
+    font-size: 2.2rem; 
+    margin-bottom: 8px;
 }
 
 .skill-card p {
-    font-size: 1rem;
+    font-size: 0.85rem; 
     font-weight: bold;
     color: white;
     margin: 0;
+    text-align: center;
 }
 
+@media (max-width: 600px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); 
+        gap: 10px;
+    }
+    .skill-card {
+        max-width: 100px;
+        min-height: 90px;
+        padding: 10px 5px;
+    }
+    .skill-icon-lg {
+        font-size: 2rem;
+    }
+    .skill-card p {
+        font-size: 0.75rem;
+    }
+    .category-title {
+        font-size: 2rem;
+    }
+    .sub-category-name {
+        font-size: 1.5rem;
+    }
+}
 /* ---------------------------------
   6. EDUCATION SECTION STYLES
 --------------------------------- */
@@ -401,7 +429,7 @@
     line-height: 1.6;
 }
 
-/* تنسيق شبكة الشهادات (Certifications Grid) */
+
 .certifications-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -466,7 +494,7 @@
     color: #ffd700;
 }
 
-/* Media Queries for Responsiveness (اختياري) */
+
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2.5rem;
@@ -509,14 +537,14 @@
 
 .projects-section h2 {
     font-size: 2.5rem;
-    color: #8a2be2; /* لون بنفسجي لعنوان المشاريع */
+    color: #8a2be2; 
     margin-bottom: 20px;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px; /* مسافة أكبر بين المشاريع */
+    gap: 40px; 
     margin-top: 50px;
     max-width: 1000px;
     margin-left: auto;
@@ -527,19 +555,19 @@
     background-color: #0f0f1a;
     padding: 30px;
     border-radius: 10px;
-    border-top: 5px solid #ffd700; /* خط علوي ذهبي */
+    border-top: 5px solid #ffd700; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 100%; /* لضمان تساوي ارتفاع البطاقات في الشبكة */
+    height: 100%; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* لدفع الزر للأسفل */
+    justify-content: space-between; 
 }
 
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2); /* ظل ذهبي عند التمرير */
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2); 
 }
 
 .project-card h3 {
@@ -550,7 +578,7 @@
 }
 
 .project-card .project-role {
-    color: #00bcd4; /* لون سماوي للدور */
+    color: #00bcd4; 
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 15px;
@@ -561,7 +589,7 @@
     font-size: 1.05rem;
     line-height: 1.6;
     margin-bottom: 20px;
-    flex-grow: 1; /* لتأخذ المساحة المتاحة */
+    flex-grow: 1; 
 }
 
 .project-card .project-details-list {
@@ -586,7 +614,7 @@
 }
 
 .tech-tag {
-    background-color: #2e1a3e; /* لون بنفسجي داكن للـ tag */
+    background-color: #2e1a3e; 
     color: white;
     padding: 6px 12px;
     border-radius: 20px;
@@ -597,7 +625,7 @@
 
 .project-link-button {
     display: inline-block;
-    background-color: #8a2be2; /* لون زر المشاهدة */
+    background-color: #8a2be2; 
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -605,22 +633,22 @@
     font-weight: bold;
     margin-top: 20px;
     transition: background-color 0.3s ease;
-    align-self: flex-start; /* ليكون الزر في بداية السطر */
+    align-self: flex-start; 
 }
 
 .project-link-button:hover {
     background-color: #6a0dad;
 }
-/* ---------------------------------
-  8. CONTACT SECTION STYLES (Final Compact Version)
+/* ------------------------------
+  8. CONTACT SECTION STYLES 
 --------------------------------- */
 .contact-links-grid {
     display: flex;
     justify-content: center;
-    gap: 15px; /* تقليل التباعد بين البطاقات */
-    margin-top: 30px; /* تقليل المسافة العلوية */
+    gap: 15px; 
+    margin-top: 30px; 
     flex-wrap: wrap;
-    max-width: 700px; /* تحديد أقصى عرض للشبكة لتجميع البطاقات */
+    max-width: 700px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -629,47 +657,47 @@
     text-decoration: none;
     color: white;
     background-color: #1a1a2e;
-    padding: 5px; /* تقليل الـ padding إلى أدنى حد ممكن */
-    border-radius: 8px; /* تقليل انحناء الزوايا قليلاً */
-    width: 200px; /* تقليل العرض من 200px إلى 180px */
+    padding: 5px; 
+    border-radius: 8px; 
+    width: 200px; 
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
     border: 1px solid transparent;
 }
 
 .contact-link-card:hover {
-    transform: translateY(-4px); /* تقليل ارتفاع الحركة عند التمرير */
+    transform: translateY(-4px); 
     background-color: #2e1a3e;
     border-color: #8a2be2;
 }
 
 .contact-icon-lg {
-    font-size: 2rem; /* تقليل حجم الأيقونة من 2.5rem إلى 2rem */
+    font-size: 2rem; 
     color: #8a2be2;
-    margin-bottom: 5px; /* تقليل المسافة تحت الأيقونة */
+    margin-bottom: 5px; 
 }
 
 .contact-link-card h4 {
-    font-size: 1rem; /* تقليل حجم الخط */
+    font-size: 1rem; 
     margin-bottom: 2px;
 }
 
 .contact-link-card p {
-    font-size: 0.8rem; /* تقليل حجم خط الوصف */
+    font-size: 0.8rem; 
     color: #ccc;
     word-wrap: break-word;
 }
 
 .copyright-footer {
-    margin-top: 60px; /* تقليل المسافة العلوية للفوتير */
+    margin-top: 60px; 
     font-size: 0.85rem;
     color: #555;
     border-top: 1px solid #2e2e4a;
     padding-top: 15px;
 }
-/* ---------------------------------
-  9. Final Media Queries (لتحسين العرض على الجوال)
---------------------------------- */
+/* ---------------------------
+  9. Final Media Queries 
+------------------------------ */
 @media (max-width: 600px) {
     .section-container {
         padding: 0 10px;
@@ -692,17 +720,17 @@
   10. BACK TO TOP BUTTON STYLES
 --------------------------------- */
 .back-to-top {
-    position: fixed; /* لتثبيته في مكانه */
-    bottom: 90px; /* لجعله فوق أزرار التنقل السفلية */
+    position: fixed; 
+    bottom: 90px; 
     right: 25px; 
-    z-index: 990; /* ترتيبه فوق المحتوى وتحت الأزرار الثابتة الأخرى */
+    z-index: 990; 
 }
 
 .back-to-top-button {
-    background-color: #ffd700; /* لون ذهبي جذاب */
-    color: #0f0f1a; /* لون داكن للكتابة */
+    background-color: #ffd700; 
+    color: #0f0f1a; 
     border: none;
-    border-radius: 50%; /* لجعله دائرياً */
+    border-radius: 50%; 
     width: 45px;
     height: 45px;
     font-size: 1.2rem;
@@ -714,13 +742,13 @@
 
 .back-to-top-button:hover {
     opacity: 1;
-    transform: scale(1.1); /* تأثير بسيط عند التمرير */
+    transform: scale(1.1); 
 }
 
-/* تعديل موضعه على شاشات الجوال */
+
 @media (max-width: 768px) {
     .back-to-top {
         right: 15px;
-        bottom: 80px; /* لإبعاده عن أزرار التنقل السفلية */
+        bottom: 80px; 
     }
 }
