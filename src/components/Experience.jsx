@@ -2,7 +2,7 @@ import React from 'react';
 
 function Experience() {
   const experiences = [
-    // --- الخبرة المهنية (Experience) ---
+    // --- (Experience) ---
     {
       title: 'Information Technology Support Technician',
       company: 'Faraj Alsubaie Food Stores Company',
@@ -27,7 +27,7 @@ function Experience() {
       ],
       type: 'Experience'
     },
-    // --- التطوع (Volunteering) ---
+    // --- (Volunteering) ---
     {
       title: 'Deputy Leader – Content Writing Committee',
       company: 'TechMinds Club',
