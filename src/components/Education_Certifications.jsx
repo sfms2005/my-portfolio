@@ -52,7 +52,7 @@ function EducationCertifications() {
           My academic journey and professional development through various certifications.
         </p>
 
-        {/* --- قسم التعليم (Education) --- */}
+        {/* --- (Education) --- */}
         <div className="education-block">
           <h3>Education</h3>
           <div className="education-item-card">
@@ -74,7 +74,7 @@ function EducationCertifications() {
           </div>
         </div>
 
-        {/* --- قسم الشهادات (Certifications) --- */}
+        {/* --- (Certifications) --- */}
         <div className="certifications-block">
           <h3>Certifications</h3>
           <div className="certifications-grid">
