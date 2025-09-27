@@ -6,8 +6,7 @@ import Skills from './components/Skills.jsx';
 import EducationCertifications from './components/Education_Certifications.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
-import BackToTopButton from './components/BackToTopButton.jsx'; // **1. استيراد المكون الجديد**
-
+import BackToTopButton from './components/BackToTopButton.jsx'; 
 import './App.css'; 
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
         <Contact />
       </main>
       
-      <BackToTopButton /> {/* **2. إضافة المكون في نهاية الـ container** */}
+      <BackToTopButton /> {}
     </div>
   );
 }
