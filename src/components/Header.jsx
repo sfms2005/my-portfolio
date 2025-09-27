@@ -5,12 +5,12 @@ function Header() {
     <header className="main-header">
       <div className="hero-section">
         <div className="hero-content">
-          {/* الصورة في خلفية الـ hero-section هي image_d986fb.jpg */}
+          {}
           <h1>HELLO, I'M SARA ALSUBAIE!</h1>
           <h2>IT Student</h2>
         </div>
         
-        {/* أزرار التنقل السفلية */}
+        {}
         <div className="bottom-nav-buttons">
           <a href="#about"><button className="cta-button">About</button></a>
           <a href="#experience"><button className="cta-button">Experience & Volunteering</button></a>
