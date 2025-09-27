@@ -5,8 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; /* لون خلفية افتراضي */
-
+  background-color: #242424; 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,7 +17,7 @@ body {
   padding: 0;
   min-width: 100vw;
   min-height: 100vh;
-  background-color: #121212; /* الخلفية الداكنة */
+  background-color: #121212; 
   color: #f0f0f0;
 }
 
