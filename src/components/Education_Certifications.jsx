@@ -11,15 +11,16 @@ function EducationCertifications() {
   };
 
   const certifications = [
-    {
-      title: 'Introduction to AI Engineering with Groq',
-      issuer: 'Tuwaiq',
-      date: 'Sep 2025',
-    },
+    
     {
       title: 'Microsoft Azure AI Fundamentals',
       issuer: 'Microsoft',
       date: 'Oct 2025',
+    },
+    {
+      title: 'Introduction to AI Engineering with Groq',
+      issuer: 'Tuwaiq',
+      date: 'Sep 2025',
     },
     {
       title: 'Basics of Building Websites from Scratch to Professionalism',
